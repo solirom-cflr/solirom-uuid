@@ -1,0 +1,6 @@
+*.go
+Dockerfile
+.git
+*.mod
+*.sum
+*.sh
