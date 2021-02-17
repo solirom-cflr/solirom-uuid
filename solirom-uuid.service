@@ -6,10 +6,10 @@ After=network.target
 [Service]
 RestartSec=2s
 Type=simple
-User=angel
-Group=angel
-WorkingDirectory=/home/angel/solirom-uuid/
-ExecStart=/home/angel/solirom-uuid/solirom-uuid
+User=claudius
+Group=claudius
+WorkingDirectory=/home/claudius/services/solirom-uuid/
+ExecStart=/home/claudius/services/solirom-uuid/solirom-uuid
 Restart=always
 
 [Install]
